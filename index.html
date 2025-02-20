@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+
+    <style>
+    @media (max-width: 991px) {
+      .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%; 
+        background: rgba(3, 14, 104, 0.8);
+        z-index: 1000;
+        padding: 10px;
+        border-radius: 10px;
+     
+      }
+    }
+  </style>
+
+  
+  </head>
+
+  <body>
+    <header style="background-color: #030e68;">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#" style="color: white; font-size: 1.5rem; font-weight: bold;">ARSHA</a>
+
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-primary ms-lg-3">Get Started</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="pb-5" style="background-color: #030e68; ">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-6 col-md-12 order-2 oerder-lg-1  text-light text-center text-lg-start">
+            <h1 style="font-size: 50px;">Better Solutions For Your Business</h1>
+            <h3 class="font-weight-normal">We are a team of talented designers making websites with Bootstrap</h3>
+            <div class="mt-4">
+              <button class="btn btn-info border rounded-pill me-2">Get Started</button>
+             
+                <i class="bi bi-play-circle" style="color: white;"></i> Watch Video
+            
+                
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 order-1 order-lg-2 mt-4 ">
+            <img src="Assets/images/1.jpg" class="img-fluid" style="width: 100%; opacity: 0.7;" alt="Responsive image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background-color: #f5f6f8;">
+      <div class="container">
+        <div class="row text-center align-items-center">
+          <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="./Assets/images/images.png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="./Assets/images/images (1).png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="./Assets/images/images (2).png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="./Assets/images/images (3).png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="./Assets/images/images (4).png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-3">
+            <img src="./Assets/images/images (5).png" class="img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section style="background-color: white;">
+      <div class="container my-4 mb-5 ">
+        <div class="text-center">
+          <h2 class="fw-bold">ABOUT US</h2>
+
+        </div>
+
+        <div class="row my-5 mb-5">
+
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center">
+                <span>✔</span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </li>
+              <li class="d-flex align-items-center">
+                <span>✔</span> Duis aute irure dolor in reprehenderit in voluptate velit.
+              </li>
+              <li class="d-flex align-items-center">
+                <span>✔</span> Ullamco laboris nisi ut aliquip ex ea commodo.
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="col-md-6">
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn btn-outline-primary">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="my-5" style="background-color:  #f5f6f8;">
+      <div class="container-fluid">
+        <div class="row align-items-center ">
+
+          <div class="col-md-7 mt-5 mb-5">
+            <h2 class="highlight-text">Eum ipsam laborum deleniti <span class="fw-bold">velit pariatur architecto aut
+                nihil</span></h2>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit.</p>
+
+
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    01.Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                    gravida.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq2">
+                    02.Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                  </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq3">
+                    03.Dolor sit amet consectetur adipiscing elit pellentesque?
+                  </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Ut etiam sit amet nisl purus in mollis nunc sed id semper.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-5 text-center">
+            <img src="./Assets/images/image1.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container ">
+      <div class="row align-items-center">
+
+        <div class="col-md-6 text-center">
+          <img src="./Assets/images/image2.jpg" alt="Illustration" class="img-fluid">
+        </div>
+
+
+        <div class="col-md-6 mb-5">
+          <h2 class="fw-bold">Voluptatem dignissimos provident quasi corporis voluptas</h2>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between">
+              <span>HTML</span> <span>100%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;"></div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="d-flex justify-content-between">
+              <span>CSS</span> <span>90%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width:90%;"></div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="d-flex justify-content-between">
+              <span>JAVASCRIPT</span> <span>75%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%;"></div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="d-flex justify-content-between">
+              <span>PHOTOSHOP</span> <span>55%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 55%;"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section style="background-color: white;">
+      <div class="container ">
+        <div class="text-center">
+          <h2 class="fw-bold">SERVICES</h2>
+
+        </div>
+
+        <div class="row justify-content-center my-4">
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-4 ">
+            <div class="card text-center border-2 p-3">
+              <div class="card-body">
+                <div class="mb-2  ">📉</div>
+                <h5 class="card-title fw-bold text-primary">Lorem Ipsum</h5>
+                <p class="card-text text-dark">
+                  Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-4">
+            <div class="card text-center border-2 p-3">
+              <div class="card-body">
+                <div class="mb-2 "><i class="bi bi-bounding-box-circles"></i></div>
+                <h5 class="card-title fw-bold text-primary">Sed ut perspici</h5>
+                <p class="card-text text-dark">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  excepturi..
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-lg-3 ">
+            <div class="card text-center border-2  p-3">
+              <div class="card-body">
+                <div class="mb-2 ">📅</div>
+                <h5 class="card-title fw-bold text-primary">Magni Dolores</h5>
+                <p class="card-text text-dark">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-lg-3 ">
+            <div class="card text-center border-2 p-3">
+              <div class="card-body">
+                <div class="mb-2 "><i class="bi bi-broadcast"></i></div>
+                <h5 class="card-title fw-bold text-primary">Nemo Enim</h5>
+                <p class="card-text text-dark">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <section style="background-color: #030e68;">
+        <div class="container">
+          <div class="row align-items-center justify-content-between text-center text-md-start">
+            <div class="col-md-8  mt-5 mb-1">
+              <h2 class="fw-bold text-white">Call To Action</h2>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, expedita! adipisicing elit. Dicta,
+                expedita!
+              </p>
+            </div>
+            <div class="col-md-4 text-md-end mb-4 ">
+              <button type="button" class="btn border rounded-pill text-white">Call To Action</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="container text-center my-5">
+        <h2 class="fw-bold">TEAM</h2>
+        <p class="text-muted">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+
+        <div class="row g-4">
+
+
+          <div class="col-sm-6">
+            <div class="card border-2 p-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div>
+                    <img src="./Assets/images/smkk0mjpoqp81.jpg" alt=".." style="width: 80%; border-radius: 100%;">
+                  </div>
+                  <div class="my-5">
+                    <h4 class="card-title">john</h4>
+                    <p class="card-text">Some example text some example text. Jane Doe is an architect andengine</p>
+                    <div class="d-flex g-2 ">
+                      <a href="#"><i class="bi bi-facebook" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-whatsapp" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-twitter" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-instagram" style="padding-right: 10px;"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6">
+            <div class="card border-2 p-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div>
+                    <img src="./Assets/images/smkk0mjpoqp81.jpg" alt=".." style="width: 80%; border-radius: 100%;">
+                  </div>
+                  <div class="my-5">
+                    <h4 class="card-title">john</h4>
+                    <p class="card-text">Some example text some example text. Jane Doe is an architect andengine</p>
+                    <div class="d-flex gap-2">
+                      <a href="#"><i class="bi bi-facebook" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-whatsapp" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-twitter" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-instagram" style="padding-right: 10px;"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6">
+            <div class="card border-2 p-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div>
+                    <img src="./Assets/images/smkk0mjpoqp81.jpg" alt=".." style="width: 80%; border-radius: 100%;">
+                  </div>
+                  <div class="my-5">
+                    <h4 class="card-title">john</h4>
+                    <p class="card-text">Some example text some example text. Jane Doe is an architect andengine</p>
+                    <div class="d-flex gap-2">
+                      <a href="#"><i class="bi bi-facebook" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-whatsapp" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-twitter" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-instagram" style="padding-right: 10px;"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card border-2 p-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div>
+                    <img src="./Assets/images/smkk0mjpoqp81.jpg" alt=".." style="width: 80%; border-radius: 100%;">
+                  </div>
+                  <div class="my-5">
+                    <h4 class="card-title">john</h4>
+                    <p class="card-text">Some example text some example text. Jane Doe is an architect andengine</p>
+                    <div class="d-flex gap-2">
+                      <a href="#"><i class="bi bi-facebook" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-whatsapp" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-twitter" style="padding-right: 10px;"></i></a>
+                      <a href="#"><i class="bi bi-instagram" style="padding-right: 10px;"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <section style="background-color: #f5f6f8;">
+        <div class="container">
+          <div class="text-center   ">
+            <h2 class="fw-bold pt-5 text-primary">Pricing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, expedita!</p>
+          </div>
+
+          <div class="row mb-3">
+            <div class=" col-md-4">
+              <div class="card  mb-5">
+                <div class="card-body">
+                  <h5 class="fw-bold ">Free Plan</h5>
+                  <h2 class="fw-bold text-primary">$0 <span class="fs-6 text-muted">/ month</span></h2>
+                  <ul class="list-unstyled mt-3">
+                    <li class="d-flex align-items-center"><span>✔</span> Quam adipiscing vitae proin</li>
+                    <li class="d-flex align-items-center"> <span>✔</span> Nec feugiat nisl pretium</li>
+                    <li class="d-flex align-items-center"> <span>✔</span> Nulla at volutpat diam uteera</li>
+                    <li class="d-flex align-items-center text-muted"><i class="bi bi-x"></i> Pharetra massa massa
+                      ultricies
+                    </li>
+                    <li class="d-flex align-items-center text-muted"><i class="bi bi-x"></i>Massa ultricies mi quis
+                      hendrerit
+                    </li>
+                  </ul>
+                  <button class="btn btn-outline-primary w-100 mt-3">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class=" col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="fw-bold ">Business plan</h5>
+                  <h2 class="fw-bold text-primary">$29<span class="fs-6 text-muted">/ month</span></h2>
+                  <ul class="list-unstyled mt-3">
+                    <li class="d-flex align-items-center"><span>✔</span> Quam adipiscing vitae proin</li>
+                    <li class="d-flex align-items-center"> <span>✔</span> Nec feugiat nisl pretium</li>
+                    <li class="d-flex align-items-center"> <span>✔</span> Nulla at volutpat diam uteera</li>
+                    <li class="d-flex align-items-center text-muted"><i class="bi bi-x"></i> Pharetra massa massa
+                      ultricies
+                    </li>
+                    <li class="d-flex align-items-center text-muted"><i class="bi bi-x"></i>Massa ultricies mi quis
+                      hendrerit
+                    </li>
+                  </ul>
+                  <button class="btn btn-outline-primary w-100 mt-3">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class=" col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="fw-bold ">Devloper Plan</h5>
+                  <h2 class="fw-bold text-primary">$49 <span class="fs-6 text-muted">/ month</span></h2>
+                  <ul class="list-unstyled mt-3 ">
+                    <li class="d-flex align-items-center"><span>✔</span> Quam adipiscing vitae proin</li>
+                    <li class="d-flex align-items-center"> <span>✔</span> Nec feugiat nisl pretium</li>
+                    <li class="d-flex align-items-center"> <span>✔</span> Nulla at volutpat diam uteera</li>
+                    <li class="d-flex align-items-center text-muted"><i class="bi bi-x"></i> Pharetra massa massa
+                      ultricies
+                    </li>
+                    <li class="d-flex align-items-center text-muted"><i class="bi bi-x"></i>Massa ultricies mi quis
+                      hendrerit
+                    </li>
+                  </ul>
+                  <button class="btn btn-outline-primary w-100 mt-3">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class=" testimonial-section text-center">
+            <h2 class="text-primary fw-bold pt-3">TESTIMONIALS</h2>
+            <p class="text-muted">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active mb-5">
+                  <img src="./Assets/images/5a0c7b76e2a8bcdbe571c5ba916f93fe.jpg" alt="Jena Karlis"
+                    class="testimonial-img rounded-circle" style="width: 20%;">
+                  <h5 class="fw-bold">Jena Karlis</h5>
+                  <p class="text-muted">Store Owner</p>
+                  <div class="stars">★★★★★</div>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, velit.</p>
+
+                </div>
+
+                <div class="carousel-item mb-5">
+                  <img src="./Assets/images/5a0c7b76e2a8bcdbe571c5ba916f93fe.jpg" alt="John Doe"
+                    class="testimonial-img rounded-circle" style="width: 20%;">
+                  <h5 class="fw-bold">John Doe</h5>
+                  <p class="text-muted">Freelancer</p>
+                  <div class="stars">★★★★★</div>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, velit.</p>
+
+                </div>
+
+                <div class="carousel-item mb-5">
+                  <img src="./Assets/images/5a0c7b76e2a8bcdbe571c5ba916f93fe.jpg" alt="Sarah Williams"
+                    class="testimonial-img rounded-circle" style="width: 20%;">
+                  <h5 class="fw-bold">Sarah Williams</h5>
+                  <p class="text-muted">Entrepreneur</p>
+                  <div class="stars">★★★★★</div>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, velit.</p>
+
+                </div>
+              </div>
+
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+
+
+              <div class="carousel-indicators" style="text-align: center; background-color: rgb(234, 234, 241);">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                  class="active"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="pb-3" style="background-color:  #f5f6f8;">
+
+        <div class="container  ">
+
+          <div class="text-center ">
+            <h2 class="highlight-text text-primary pt-5 ">FREQUANTLY ASKED QUESTIONS</h2>
+
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit.</p>
+          </div>
+
+
+          <div class="">
+            <div class="accordion my-4 " id="faqAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    01.Non consectetur a erat nam at lectus urna duis?
+                  </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="  #faqAccordion">
+                  <div class="accordion-body">
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                    gravida.
+                  </div>
+                </div>
+              </div>
+
+              
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq2">
+                      02.Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                    </button>
+                  </h2>
+                  <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq3">
+                      03.Dolor sit amet consectetur adipiscing elit pellentesque?
+                    </button>
+                  </h2>
+                  <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Ut etiam sit amet nisl purus in mollis nunc sed id semper.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq2">
+                      04.Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                    </button>
+                  </h2>
+                  <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item ">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq3">
+                      05.Dolor sit amet consectetur adipiscing elit pellentesque?
+                    </button>
+                  </h2>
+                  <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Ut etiam sit amet nisl purus in mollis nunc sed id semper.
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container my-5">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">CONTACT</h2>
+          <p class="text-muted">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-6">
+            <div class="p-4 border rounded shadow-sm">
+              <div class="mb-3">
+                <h5><i class="bi bi-geo-alt-fill text-primary me-2"></i> Address</h5>
+                <p class="text-muted">A108 Adam Street, New York, NY 535022</p>
+              </div>
+              <div class="mb-3">
+                <h5><i class="bi bi-telephone-fill text-primary me-2"></i> Call Us</h5>
+                <p class="text-muted">+1 5589 55488 55</p>
+              </div>
+              <div class="mb-3">
+                <h5><i class="bi bi-envelope-fill text-primary me-2"></i> Email Us</h5>
+                <p class="text-muted">info@example.com</p>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.5487286990333!2d72.50439977509353!3d23.07700037913559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b35155554fb%3A0xfa5e7fd0da4e2fae!2sCrest%20Infotech!5e0!3m2!1sen!2sin!4v1739884723025!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+
+          <div class="col-md-6">
+            <div class="p-4 border rounded shadow-sm">
+              <form>
+                <div class="row mb-3">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                  </div>
+                  <div class="col">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Subject">
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary rounded-pill px-4">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="" style="background-color:#f5f6f8;">
+        <div class="container pt-3 text-center" style="background-color:#f5f6f8;">
+          <h4 class="fw-bold">Join Our Newsletter</h4>
+          <p class="text-muted">Subscribe to our newsletter and receive the latest news about our products and services!
+          </p>
+
+          <div class="d-flex justify-content-center">
+            <form class="w-50">
+              <div class="input-group">
+                <input type="text" class="form-control rounded-pill px-4" placeholder="Enter your name"
+                  aria-label="text">
+                <button class="btn btn-primary rounded-pill px-4 ms-2" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+
+      <footer class="bg-light py-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-lg-start">
+
+            <div class="col-md-3 col-sm-6 col-12">
+              <h5 class="fw-bold">ARSHA</h5>
+              <p>A108 Adam Street <br> New York, NY 535022</p>
+              <p><strong>Phone:</strong> +1 5589 55488 55</p>
+              <p><strong>Email:</strong> info@example.com</p>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6 col-12 ">
+              <h5 class="fw-bold">Useful Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none text-dark">> Home</a></li>
+                <li><a href="#" class="text-decoration-none text-dark">> About Us</a></li>
+                <li><a href="#" class="text-decoration-none text-dark">> Services</a></li>
+                <li><a href="#" class="text-decoration-none text-dark">> Terms of Service</a></li>
+              </ul>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6 col-12">
+              <h5 class="fw-bold">Our Services</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none text-dark">> Web Design</a></li>
+                <li><a href="#" class="text-decoration-none text-dark">> Web Development</a></li>
+                <li><a href="#" class="text-decoration-none text-dark">> Product Management</a></li>
+                <li><a href="#" class="text-decoration-none text-dark">> Marketing</a></li>
+              </ul>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6 col-12">
+              <h5 class="fw-bold">Follow Us</h5>
+              <p>Cras fermentum odio eu feugiat lide par naso tierra magna derita valies.</p>
+              <div>
+                <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle me-1"><i
+                    class="bi bi-twitter"></i></a>
+                <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle me-1"><i
+                    class="bi bi-facebook"></i></a>
+                <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle me-1"><i
+                    class="bi bi-instagram"></i></a>
+                <a href="#" class="btn btn-outline-secondary btn-sm rounded-circle"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+
+</html>
